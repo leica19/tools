@@ -5,6 +5,10 @@ thanks god. it's Friday.
 
 ### 使い方
 
+python searchOnGoogle.py {検索語} {タブ数}
+
+※タブ数を指定しない場合は、5がデフォルトとなります。
+
 ### 例：江坂で美味しいラーメンを調べたい場合
 
 python searchOnGoogle.py 江坂+美味しい+ラーメン
