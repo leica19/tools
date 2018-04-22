@@ -30,4 +30,8 @@ $ python getPicturesOnGoogle.py {検索語} {ダウンロード先dir(path)}
 
 ### 例:カレントディレクトリに松本人志というディレクトリをつくり、そこに松本人志という検索語でGoogle画像検索した結果をダウンロードする。
 
-$ pythongetPicturesOnGoogle.py 松本人志
+$ python getPicturesOnGoogle.py 松本人志
+
+### 例：沖縄かつラーメンで画像検索し、その画像をラーメンという名前のディレクトリに格納する場合
+
+$ python getPicturesOnGoogle.py 沖縄+ラーメン ラーメン
