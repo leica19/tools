@@ -3,6 +3,9 @@ thanks god. it's Friday.
 
 ## searchOnGoogleRoughly.py
 
+引数に指定した検索語をGoogleで調べ、上位5位(デフォルト値)までをそれぞれ別タブで表示する。
+検索語は"かつ"に対応
+
 ### 使い方
 
 $ python searchOnGoogle.py {検索語} {タブ数}
@@ -11,9 +14,9 @@ $ python searchOnGoogle.py {検索語} {タブ数}
 
 ### 例：江坂で美味しいラーメンを調べたい場合
 
-$ python searchOnGoogle.py 江坂+美味しい+ラーメン
+$ python searchOnGoogle.py 江坂+美味しい+ラーメン 3
 
-上位5つまでの検索結果がそれぞれ別タブで開く。
+上位3つまでの検索結果がそれぞれ別タブで開く。
 
 ## getPicturesOnGoogle.py
 
