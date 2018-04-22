@@ -1,14 +1,21 @@
-import os
+import os, sys
 from urllib import request as req
 from urllib import error
 from urllib import parse
 import bs4
 
-keyword ='イチロー'
-if not os.path.exists(keyword):
-    os.mkdir(keyword)
+keyword = sys.argv[1]
 
-urlKeyword = parse.quote(keyword)
+try:
+    if sys.argv[2]:
+        dirName = sys.argv[2]
+except:
+    dirName = keyword
+
+if not os.path.exists(dirName):
+    os.mkdir(dirName)
+
+urlKeyword = parse.quote(dirName)
 url = 'https://www.google.com/search?hl=jp&q=' + urlKeyword + '&btnG=Google+Search&tbs=0&safe=off&tbm=isch'
 headers = {"User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0",}
 
@@ -46,7 +53,7 @@ for elem in elems:
 
     try:
         img = req.urlopen(imageURL)
-        localfile = open('./'+keyword+'/'+keyword+str(counter)+pal, 'wb')
+        localfile = open('./'+dirName+'/'+dirName+'_'+str(counter)+pal, 'wb')
         localfile.write(img.read())
         img.close()
         localfile.close()
