@@ -3,7 +3,9 @@ thanks god. it's Friday.
 
 ## searchOnGoogleRoughly.py
 
-### 江坂で美味しいラーメンを調べたい場合
+### 使い方
+
+### 例：江坂で美味しいラーメンを調べたい場合
 
 python searchOnGoogle.py 江坂+美味しい+ラーメン
 
