@@ -18,7 +18,9 @@ page = req.urlopen(request)
 html = page.read().decode('utf-8')
 html = bs4.BeautifulSoup(html, "html.parser")
 elems = html.select('.rg_meta.notranslate')
-    
+
+counter = 0
+
 for ele in elems:
     print("画像のダウンロード中...")
     ele = ele.contents[0].replace('"','').split(',')
