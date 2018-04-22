@@ -11,8 +11,10 @@ python searchOnGoogle.py 江坂+美味しい+ラーメン
 
 ## getPicturesOnGoogle.py
 
-### イチローの画像を収集
+### 使い方
 
 python getPicturesOnGoogle.py {検索語} {ダウンロード先dir}
 
 ※ダウンロード先dirを指定しない場合は検索語がディレクトリ名となります。
+
+### 例
