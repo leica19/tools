@@ -5,13 +5,13 @@ thanks god. it's Friday.
 
 ### 使い方
 
-python searchOnGoogle.py {検索語} {タブ数}
+$ python searchOnGoogle.py {検索語} {タブ数}
 
 ※タブ数を指定しない場合は、5がデフォルトとなります。
 
 ### 例：江坂で美味しいラーメンを調べたい場合
 
-python searchOnGoogle.py 江坂+美味しい+ラーメン
+$ python searchOnGoogle.py 江坂+美味しい+ラーメン
 
 上位5つまでの検索結果がそれぞれ別タブで開く。
 
@@ -19,7 +19,7 @@ python searchOnGoogle.py 江坂+美味しい+ラーメン
 
 ### 使い方
 
-python getPicturesOnGoogle.py {検索語} {ダウンロード先dir}
+$ python getPicturesOnGoogle.py {検索語} {ダウンロード先dir}
 
 ※ダウンロード先dirを指定しない場合は検索語がディレクトリ名となります。
 
