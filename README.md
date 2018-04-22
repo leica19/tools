@@ -1,7 +1,7 @@
 # tools
 thanks god. it's Friday.
 
-## searchOnGoogle.py
+## searchOnGoogleRoughly.py
 
 ### 江坂で美味しいラーメンを調べたい場合
 
