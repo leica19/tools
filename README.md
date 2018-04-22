@@ -20,10 +20,14 @@ $ python searchOnGoogle.py 江坂+美味しい+ラーメン 3
 
 ## getPicturesOnGoogle.py
 
+カレントディレクトリにGoogle画像検索の結果をダウンロードする。
+
 ### 使い方
 
-$ python getPicturesOnGoogle.py {検索語} {ダウンロード先dir}
+$ python getPicturesOnGoogle.py {検索語} {ダウンロード先dir(path)}
 
 ※ダウンロード先dirを指定しない場合は検索語がディレクトリ名となります。
 
-### 例
+### 例:カレントディレクトリに松本人志というディレクトリをつくり、そこに松本人志という検索語でGoogle画像検索した結果をダウンロードする。
+
+$ pythongetPicturesOnGoogle.py 松本人志
