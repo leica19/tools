@@ -15,3 +15,4 @@ python searchOnGoogle.py 江坂+美味しい+ラーメン
 
 python getPicturesOnGoogle.py {検索語} {ダウンロード先dir}
 
+※ダウンロード先dirを指定しない場合は検索語がディレクトリ名となります。
