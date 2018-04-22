@@ -1,5 +1,5 @@
 # tools
-thanks god. it's Friday.
+Thanks God. it's Friday.
 
 ## searchOnGoogleRoughly.py
 
