@@ -35,3 +35,6 @@ $ python getPicturesOnGoogle.py 松本人志
 ### 例：沖縄かつラーメンで画像検索し、その画像をラーメンという名前のディレクトリに格納する場合
 
 $ python getPicturesOnGoogle.py 沖縄+ラーメン ラーメン
+
+## writeDailyReport.py
+
