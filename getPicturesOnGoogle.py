@@ -3,6 +3,7 @@ from urllib import request as req
 from urllib import error
 from urllib import parse
 import bs4
+from tqdm import tqdm
 
 keyword = sys.argv[1]
 
@@ -27,10 +28,12 @@ html = page.read().decode('utf-8')
 html = bs4.BeautifulSoup(html, "html.parser")
 elems = html.select('.rg_meta.notranslate')
 
+print("画像のダウンロード中")
+
 counter = 0
 
-for elem in elems:
-    print("画像のダウンロード中...")
+for elem in tqdm(elems):
+
     elem = elem.contents[0].replace('"','').split(',')
     eledict = dict()
     for e in elem:
@@ -65,3 +68,5 @@ for elem in elems:
         continue
     except error.URLError:
         continue
+
+print("ダウンロードが完了しました")
