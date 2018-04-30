@@ -1,9 +1,12 @@
-import os, sys
+import os, sys, bs4
 from urllib import request as req
 from urllib import error
 from urllib import parse
-import bs4
 from tqdm import tqdm
+
+if len(sys.argv) < 2:
+    print('Usage: $python getPictureOnGoogle.py words [dirName]')
+    sys.exit()
 
 keyword = sys.argv[1]
 
