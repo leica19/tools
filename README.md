@@ -36,5 +36,3 @@ $ python getPicturesOnGoogle.py 松本人志
 
 $ python getPicturesOnGoogle.py 沖縄+ラーメン ラーメン
 
-## writeDailyReport.py
-
